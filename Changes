@@ -1,0 +1,8 @@
+Revision history for Perl module WWW::StreetMap
+
+0.10 Imported code from my get_streetmap program
+
+0.01 Tue Aug 24 21:59:33 2004
+	- original version; created by ExtUtils::ModuleMaker 0.32
+
+

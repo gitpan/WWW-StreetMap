@@ -1,0 +1,10 @@
+Build.PL
+Changes
+lib/WWW/.StreetMap.pm.swp
+lib/WWW/StreetMap.pm
+MANIFEST			This list of files
+META.yml
+t/01_distribution.t
+Makefile.PL
+README
+SIGNATURE    Added here by Module::Build

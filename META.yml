@@ -1,0 +1,17 @@
+--- #YAML:1.0
+name: WWW-StreetMap
+version: 0.10
+author: ~
+abstract: Interface to http://www.streetmap.co.uk/
+license: perl
+requires:
+  File::Temp: 0
+  IO::All: 0
+  IO::All::LWP: 0
+  Image::Magick: 0
+  OpenOffice::OODoc: 0
+provides:
+  WWW::StreetMap:
+    file: lib/WWW/StreetMap.pm
+    version: 0.10
+generated_by: Module::Build version 0.2609

@@ -1,0 +1,32 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.38.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It would check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 a938b6678d2facbe0f362b94c3dbbe3d1c6fc948 Build.PL
+SHA1 b9470d9840668f1fee261dac07127fbd96ebecc8 Changes
+SHA1 4118bd6a2a131c47efb7a6278cef697203b217b6 MANIFEST
+SHA1 93b3a1b72b8edac8bb6012601b95ed29df871d9a META.yml
+SHA1 a359d4072690a21ce63e4b393bdbc19d72b6be5a Makefile.PL
+SHA1 d1a3801c28c0f3179a8a2271052571431f277a51 README
+SHA1 d976116fc7a1b212309cc9e98d1d596b0fda3ebe lib/WWW/.StreetMap.pm.swp
+SHA1 4c8daed206f863df7ea9d35552a713e5ce84e9ca lib/WWW/StreetMap.pm
+SHA1 01c3db36930081fa66154985efc56d8835c7c14c t/01_distribution.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.2.6 (GNU/Linux)
+
+iD8DBQFCRCdKbD1fM9M5ytIRAou/AJ0WiB+RgTCod2sSVCJnDyN4fWN/JACgoavH
+qZZ/hTo+tc8HpWLIbdtDM2g=
+=eaeb
+-----END PGP SIGNATURE-----

@@ -11,6 +11,7 @@ Module::Build->new(
 		'OpenOffice::OODoc' => 0,
 	},
 	create_readme      => 1,
+	scripts            => [ 'script/get_streetmap' ],
 	sign               => 1,
 	create_makefile_pl => 'passthrough',
 	add_to_cleanup     => [ 'WWW-StreetMap-*' ],

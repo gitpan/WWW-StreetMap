@@ -37,7 +37,7 @@ use IO::All::LWP;
 use OpenOffice::OODoc;
 
 
-our $VERSION = '0.10';
+our $VERSION = '0.11';
 
 =head2 METHODS
 
@@ -60,7 +60,7 @@ sub new {
 	return $self;
 }
 
-=head2 build_map_jpg
+=head3 build_map_jpg
 
  build_map_jpg
 
@@ -95,14 +95,14 @@ sub build_map_jpg {
 	$map->Write($filename);
 }
 
-=head2 create_oo_doc {
+=head3 create_oo_doc
 
  create_oo_doc($filename, $map_filename)
 
 Create an OpenOffice Writer document containg the map.
 
-If you do not specify a pre-existing map then a temporary image will be created
-for insertion into the document.
+If you do not specify a pre-existing map then $map_filename will default to
+$filename with the .jpg extension added.
 
 =cut
 
@@ -112,9 +112,8 @@ sub create_oo_doc {
 
 	return unless $filename;
 
-	my $fh;
 	unless($map_filename) {
-		($fh, $map_filename) = tempfile(SUFFIX=>'gif');
+		$map_filename = "$filename.jpg";
 		$self->build_map_jpg($map_filename);
 	}
 
@@ -147,9 +146,6 @@ sub create_oo_doc {
 	# save the modified document
 	$document->save;
 
-
-	# Close/delete the temp file if we used one
-	close $fh if($fh);
 }
 
 1;
@@ -196,7 +192,7 @@ This is just requried for testing purposes.
 
 =item *
 
-Write it!
+Construction of URL by user specifying Post Code, London Street etc.
 
 =back
 

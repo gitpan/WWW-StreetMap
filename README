@@ -15,18 +15,18 @@ PUBLIC INTERFACE
    new
      new(url => $url)
 
-  build_map_jpg
+   build_map_jpg
      build_map_jpg
 
     Download the map from streetmap and join it into a single jpeg image.
 
-  create_oo_doc {
+   create_oo_doc
      create_oo_doc($filename, $map_filename)
 
     Create an OpenOffice Writer document containg the map.
 
-    If you do not specify a pre-existing map then a temporary image will be
-    created for insertion into the document.
+    If you do not specify a pre-existing map then $map_filename will default
+    to $filename with the .jpg extension added.
 
 INSTALLATION
     This module uses Module::Build for its installation. To install this
@@ -62,7 +62,7 @@ DEPENDENCIES
     This is just requried for testing purposes.
 
 TODO
-    *   Write it!
+    *   Construction of URL by user specifying Post Code, London Street etc.
 
 BUGS
     To report a bug or request an enhancement use CPAN's excellent Request

@@ -1,6 +1,12 @@
 Revision history for Perl module WWW::StreetMap
 
-0.10 Imported code from my get_streetmap program
+0.11  - Cannot use a temp image file when creating an openoffice_writer doc,
+        the image needs to remain on the filesystem afterwards. Therefore now use the
+				document filename with a .jpg extension.
+			- Added the get_streetmap script
+			- Minor pod fixes
+
+0.10 - Imported code from my get_streetmap program
 
 0.01 Tue Aug 24 21:59:33 2004
 	- original version; created by ExtUtils::ModuleMaker 0.32

@@ -13,8 +13,6 @@ Interface to http://www.streetmap.co.uk/
 Please respect the terms and conditions of the excellent streetmap website: 
 http://www.streetmap.co.uk/disclaimer.htm
 
-=head1 PUBLIC INTERFACE
-
 =cut
 
 
@@ -24,9 +22,8 @@ package WWW::StreetMap;
 
 
 # pragmata
-use 5.006;
 use strict;
-use warnings;
+use vars qw($VERSION);
 
 # Standard Perl Library and CPAN modules
 use English;
@@ -37,11 +34,11 @@ use IO::All::LWP;
 use OpenOffice::OODoc;
 
 
-our $VERSION = '0.11';
+$VERSION = '0.12';
 
-=head2 METHODS
+=head1 CLASS METHODS
 
-=head3 new
+=head2 new
 
  new(url => $url)
 
@@ -60,7 +57,9 @@ sub new {
 	return $self;
 }
 
-=head3 build_map_jpg
+=head1 OBJECT METHODS
+
+=head2 build_map_jpg
 
  build_map_jpg
 
@@ -95,7 +94,7 @@ sub build_map_jpg {
 	$map->Write($filename);
 }
 
-=head3 create_oo_doc
+=head2 create_oo_doc
 
  create_oo_doc($filename, $map_filename)
 
@@ -169,11 +168,6 @@ to fetch it. Or use CPAN or CPANPLUS and fetch it "manually".
 
 =head1 DEPENDENCIES
 
-This  module works only  with  perl v5.6 and higher.  I   am more than happy  to
-backport to an earlier perl 5.x if someone using an old  perl would like to make
-use of  my module. Mail  me  and ask me to  do  the work  [or  even better do it
-yourself and send in a patch! ;-)]
-
 This module requires these other modules and libraries:
 
  Test::More
@@ -217,9 +211,6 @@ Copyright 2004-5, Sagar R. Shah, All rights reserved
 
 This program  is free software; you can  redistribute it  and/or modify it under
 the same terms as Perl itself.
-
-The full text of the license can be found in the LICENSE file included with this
-module.
 
 =cut
 

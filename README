@@ -10,17 +10,17 @@ DESCRIPTION
     Please respect the terms and conditions of the excellent streetmap
     website: http://www.streetmap.co.uk/disclaimer.htm
 
-PUBLIC INTERFACE
-  METHODS
-   new
+CLASS METHODS
+  new
      new(url => $url)
 
-   build_map_jpg
+OBJECT METHODS
+  build_map_jpg
      build_map_jpg
 
     Download the map from streetmap and join it into a single jpeg image.
 
-   create_oo_doc
+  create_oo_doc
      create_oo_doc($filename, $map_filename)
 
     Create an OpenOffice Writer document containg the map.
@@ -44,11 +44,6 @@ INSTALLATION
     to fetch it. Or use CPAN or CPANPLUS and fetch it "manually".
 
 DEPENDENCIES
-    This module works only with perl v5.6 and higher. I am more than happy
-    to backport to an earlier perl 5.x if someone using an old perl would
-    like to make use of my module. Mail me and ask me to do the work [or
-    even better do it yourself and send in a patch! ;-)]
-
     This module requires these other modules and libraries:
 
      Test::More
@@ -82,7 +77,4 @@ COPYRIGHT
 
     This program is free software; you can redistribute it and/or modify it
     under the same terms as Perl itself.
-
-    The full text of the license can be found in the LICENSE file included
-    with this module.
 

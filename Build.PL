@@ -1,3 +1,4 @@
+use strict;
 use Module::Build;
 
 Module::Build->new(

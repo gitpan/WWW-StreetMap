@@ -1,5 +1,8 @@
 Revision history for Perl module WWW::StreetMap
 
+0.12  - Should now work with Perl versions older than 5.6
+      - Minor pod formatting changes
+
 0.11  - Cannot use a temp image file when creating an openoffice_writer doc,
         the image needs to remain on the filesystem afterwards. Therefore now use the
 				document filename with a .jpg extension.

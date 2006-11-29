@@ -1,12 +1,12 @@
 This file contains message digests of all files listed in MANIFEST,
-signed via the Module::Signature module, version 0.38.
+signed via the Module::Signature module, version 0.53.
 
 To verify the content in this distribution, first make sure you have
 Module::Signature installed, then type:
 
     % cpansign -v
 
-It would check each file's integrity, as well as the signature's
+It will check each file's integrity, as well as the signature's
 validity.  If "==> Signature verified OK! <==" is not displayed,
 the distribution may already have been compromised, and you should
 not run its Makefile.PL or Build.PL.
@@ -15,19 +15,19 @@ not run its Makefile.PL or Build.PL.
 Hash: SHA1
 
 SHA1 c28c27ca35bdcd8fa5e3410d0464a435ddabd7c1 Build.PL
-SHA1 869b20452b1913218f6045faace1a622af1acd41 Changes
+SHA1 29be6f611ea5f87b4dccf7f1ef5f79a8fda2d05f Changes
 SHA1 7b4cbd394a88a0ab3b1bdc74e7cd69b705697ab6 MANIFEST
-SHA1 f1eb4899e77d2f54b1005bf2d8dea894db46d881 META.yml
-SHA1 a359d4072690a21ce63e4b393bdbc19d72b6be5a Makefile.PL
+SHA1 2d46350d951fcd3b89ff36feb08209d4d31a9974 META.yml
+SHA1 cd14ada78fb37a0d926edd86eddcdf7f939de582 Makefile.PL
 SHA1 41156abc1e532788f8348fdf7602000132858970 README
-SHA1 b3b31dd6224882768e450b54d570b69b31e86cb0 lib/WWW/StreetMap.pm
+SHA1 4ee28b07f620e56964477fc77a6ba82e1b18ddd0 lib/WWW/StreetMap.pm
 SHA1 27a1d1430ce42e6836dfb31844abb8023ba7fcd1 script/get_streetmap
 SHA1 01c3db36930081fa66154985efc56d8835c7c14c t/01_distribution.t
 SHA1 6e21ef052da02124d6f9916f302edc790d763ab3 t/02_scripts.t
 -----BEGIN PGP SIGNATURE-----
-Version: GnuPG v1.2.6 (GNU/Linux)
+Version: GnuPG v1.4.3 (GNU/Linux)
 
-iD8DBQFCRoEDbD1fM9M5ytIRAnkkAKC7WE0Y7CgblPrmJ4gzJL58BKFJNACfTdIm
-iDbU4mu/IHPxI6kF/c9M1BM=
-=kmpa
+iD8DBQFFbQfAbD1fM9M5ytIRAly1AJ0Y+sl6hpE1UvdINKVcJEboMYbsZgCeJsCc
+xeWlmQPzpTydIOw2jcPSzaQ=
+=J6XO
 -----END PGP SIGNATURE-----

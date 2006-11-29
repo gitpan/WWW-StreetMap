@@ -26,7 +26,6 @@ use strict;
 use vars qw($VERSION);
 
 # Standard Perl Library and CPAN modules
-use English;
 use File::Temp qw(tempfile);
 use Image::Magick;
 use IO::All;
@@ -34,7 +33,7 @@ use IO::All::LWP;
 use OpenOffice::OODoc;
 
 
-$VERSION = '0.12';
+$VERSION = '0.13';
 
 =head1 CLASS METHODS
 

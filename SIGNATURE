@@ -1,5 +1,5 @@
 This file contains message digests of all files listed in MANIFEST,
-signed via the Module::Signature module, version 0.53.
+signed via the Module::Signature module, version 0.55.
 
 To verify the content in this distribution, first make sure you have
 Module::Signature installed, then type:
@@ -15,19 +15,19 @@ not run its Makefile.PL or Build.PL.
 Hash: SHA1
 
 SHA1 c28c27ca35bdcd8fa5e3410d0464a435ddabd7c1 Build.PL
-SHA1 29be6f611ea5f87b4dccf7f1ef5f79a8fda2d05f Changes
+SHA1 1d71db17630eb17df42555a504c661fddbf3e178 Changes
 SHA1 7b4cbd394a88a0ab3b1bdc74e7cd69b705697ab6 MANIFEST
-SHA1 2d46350d951fcd3b89ff36feb08209d4d31a9974 META.yml
+SHA1 c53e2d81ffc22cbe494f8d860be1cfb664d4f31b META.yml
 SHA1 cd14ada78fb37a0d926edd86eddcdf7f939de582 Makefile.PL
-SHA1 41156abc1e532788f8348fdf7602000132858970 README
-SHA1 4ee28b07f620e56964477fc77a6ba82e1b18ddd0 lib/WWW/StreetMap.pm
+SHA1 9028f538b6a5b1c7900847335edf3659ba3bc508 README
+SHA1 52d8d91d4b5820b3de877cc90dddee840ae97505 lib/WWW/StreetMap.pm
 SHA1 27a1d1430ce42e6836dfb31844abb8023ba7fcd1 script/get_streetmap
 SHA1 01c3db36930081fa66154985efc56d8835c7c14c t/01_distribution.t
 SHA1 6e21ef052da02124d6f9916f302edc790d763ab3 t/02_scripts.t
 -----BEGIN PGP SIGNATURE-----
-Version: GnuPG v1.4.3 (GNU/Linux)
+Version: GnuPG v1.4.6 (GNU/Linux)
 
-iD8DBQFFbQfAbD1fM9M5ytIRAly1AJ0Y+sl6hpE1UvdINKVcJEboMYbsZgCeJsCc
-xeWlmQPzpTydIOw2jcPSzaQ=
-=J6XO
+iD8DBQFHNJP4bD1fM9M5ytIRAuNZAKCvpQRugN9BXzgii8IeUEK7R+kOUwCfcZVh
+40QeeiGQPKtcvIQuC5CCIBE=
+=z2a3
 -----END PGP SIGNATURE-----

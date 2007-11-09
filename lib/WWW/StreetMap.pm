@@ -33,7 +33,7 @@ use IO::All::LWP;
 use OpenOffice::OODoc;
 
 
-$VERSION = '0.13';
+$VERSION = '0.14';
 
 =head1 CLASS METHODS
 
@@ -200,13 +200,20 @@ or via email:
 
 bug-www-streetmap@rt.cpan.org
 
+=head1 SOURCE AVAILABILITY
+
+This source is part of a SourceForge project which always has the
+latest sources in svn.
+
+http://sourceforge.net/projects/sagar-r-shah/
+
 =head1 AUTHOR
 
 Sagar R. Shah
 
 =head1 COPYRIGHT
 
-Copyright 2004-5, Sagar R. Shah, All rights reserved
+Copyright 2004-7, Sagar R. Shah, All rights reserved
 
 This program  is free software; you can  redistribute it  and/or modify it under
 the same terms as Perl itself.

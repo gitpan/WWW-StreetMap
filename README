@@ -12,15 +12,18 @@ DESCRIPTION
 
 CLASS METHODS
   new
+
      new(url => $url)
 
 OBJECT METHODS
   build_map_jpg
+
      build_map_jpg
 
     Download the map from streetmap and join it into a single jpeg image.
 
   create_oo_doc
+
      create_oo_doc($filename, $map_filename)
 
     Create an OpenOffice Writer document containg the map.
@@ -63,17 +66,23 @@ BUGS
     To report a bug or request an enhancement use CPAN's excellent Request
     Tracker, either via the web:
 
-    <http://rt.cpan.org/NoAuth/ReportBug.html?Queue=WWW-StreetMap>
+    http://rt.cpan.org/NoAuth/ReportBug.html?Queue=WWW-StreetMap
 
     or via email:
 
     bug-www-streetmap@rt.cpan.org
 
+SOURCE AVAILABILITY
+    This source is part of a SourceForge project which always has the latest
+    sources in svn.
+
+    http://sourceforge.net/projects/sagar-r-shah/
+
 AUTHOR
     Sagar R. Shah
 
 COPYRIGHT
-    Copyright 2004-5, Sagar R. Shah, All rights reserved
+    Copyright 2004-7, Sagar R. Shah, All rights reserved
 
     This program is free software; you can redistribute it and/or modify it
     under the same terms as Perl itself.

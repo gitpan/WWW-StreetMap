@@ -1,6 +1,6 @@
 ---
 name: WWW-StreetMap
-version: 0.13
+version: 0.14
 author: []
 abstract: Interface to http://www.streetmap.co.uk/
 license: perl
@@ -15,8 +15,8 @@ requires:
 provides:
   WWW::StreetMap:
     file: lib/WWW/StreetMap.pm
-    version: 0.13
-generated_by: Module::Build version 0.28
+    version: 0.14
+generated_by: Module::Build version 0.2808
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.2.html
   version: 1.2

@@ -1,5 +1,10 @@
 Revision history for Perl module WWW::StreetMap
 
+0.15  - Stop signing distribution
+      - Require Test::Distribution for tests
+      - Fixed 02 test to reference $^X rather than hardcode the name of the perl executable
+        (thanks to Slaven Rezic for the tip)
+
 0.14  - POD Updates
 
 0.13  - Removed unused 'use English'

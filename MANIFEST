@@ -8,4 +8,3 @@ README
 script/get_streetmap
 t/01_distribution.t
 t/02_scripts.t
-SIGNATURE    Added here by Module::Build

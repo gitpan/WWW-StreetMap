@@ -1,7 +1,7 @@
 use strict;
 use Test::More tests=>1;
 
-my $out = `perl -cw script/get_streetmap 2>&1`;
+my $out = `$^X -cw script/get_streetmap 2>&1`;
 
 if($?) {
 	diag($out);

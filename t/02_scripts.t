@@ -1,5 +1,12 @@
 use strict;
-use Test::More tests=>1;
+use Test::More;
+
+if( $^O =~ m/^(?:MSWin32|VMS)$/) {
+    plan skip_all => 'Test not compatible with your OS';
+}
+else {
+    plan tests => 1;
+}
 
 my $out = `$^X -cw script/get_streetmap 2>&1`;
 

@@ -12,18 +12,15 @@ DESCRIPTION
 
 CLASS METHODS
   new
-
      new(url => $url)
 
 OBJECT METHODS
   build_map_jpg
-
      build_map_jpg
 
     Download the map from streetmap and join it into a single jpeg image.
 
   create_oo_doc
-
      create_oo_doc($filename, $map_filename)
 
     Create an OpenOffice Writer document containg the map.
@@ -66,7 +63,7 @@ BUGS
     To report a bug or request an enhancement use CPAN's excellent Request
     Tracker, either via the web:
 
-    http://rt.cpan.org/NoAuth/ReportBug.html?Queue=WWW-StreetMap
+    <http://rt.cpan.org/NoAuth/ReportBug.html?Queue=WWW-StreetMap>
 
     or via email:
 

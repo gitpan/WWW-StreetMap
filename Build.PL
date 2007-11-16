@@ -17,5 +17,5 @@ Module::Build->new(
 	create_readme      => 1,
 	scripts            => [ 'script/get_streetmap' ],
 	create_makefile_pl => 'passthrough',
-	add_to_cleanup     => [ 'WWW-StreetMap-*' ],
+    add_to_cleanup       => [ '*.tar.gz', 'Build', '_build' ],
 )->create_build_script;

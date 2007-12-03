@@ -1,5 +1,7 @@
 Revision history for Perl module WWW::StreetMap
 
+0.18    - Fixed missing build dependency in Build.PL
+
 0.17    - Improve 02_scripts.t. Thanks to David Cantrell for the suggestion.
 
 0.16    - Do not hard code perl binary name in tests

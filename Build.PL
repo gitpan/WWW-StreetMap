@@ -13,6 +13,7 @@ Module::Build->new(
 	},
     build_requires     => {
         'Test::Distribution' => '1.29',
+        'Devel::CheckOS'     => '1.42',
     },
 	create_readme      => 1,
 	scripts            => [ 'script/get_streetmap' ],

@@ -33,7 +33,7 @@ use IO::All::LWP;
 use OpenOffice::OODoc;
 
 
-$VERSION = '0.16';
+$VERSION = '0.17';
 
 =head1 CLASS METHODS
 
